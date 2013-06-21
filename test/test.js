@@ -16,7 +16,7 @@ describe('BSDC', function() {
            should.exist(Components);
         });
         describe('Components', function() {
-           it('should include Circle', function() {
+           it('should include Square', function() {
             should.exist(Components.Circle);
            });
         });

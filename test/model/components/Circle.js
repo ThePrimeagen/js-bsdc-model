@@ -2,7 +2,7 @@ var assert = require('assert');
 var should = require('should');
 var Circle = require('../../../').API.Components.Circle;
 
-describe('Circle', function() {
+describe('Square', function() {
     it('should instantiate', function() {
         var circle = Circle();
     });
