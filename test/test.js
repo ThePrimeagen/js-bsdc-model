@@ -5,6 +5,9 @@ var Model = API.Model;
 var SVGWriter = API.SVGWriter;
 var Operations = API.Operations;
 var Components = API.Components;
+var Circle = require('../lib/model/components/Circle');
+var ComponentFactory = require('../lib/model/components/ComponentFactory');
+var ComponentTypes = require('../lib/model/components/ComponentTypes');
 
 describe('BSDC', function() {
     it('should export API', function() {
